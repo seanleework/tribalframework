@@ -1,0 +1,1 @@
+﻿package{	import flash.display.*;	import flash.events.*;	import com.tribalframework.utils.sparkle.Sparkle;		public class SparkleExample extends Sprite	{		public function SparkleExample(){						var mc:mcClass;						var tempar = new Sparkle();			tempar.init(mc, stage);					}		}}

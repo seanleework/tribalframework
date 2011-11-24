@@ -1,0 +1,1 @@
+﻿package{	import flash.display.*;	import flash.events.*;	import com.tribalframework.utils.decimal.Decimal;		public class DecimalExample extends MovieClip	{		private var p:Decimal;				public function DecimalExample(){						p = new Decimal();					//	trace(p.initDecimal( 0.89865, 100, 100, "round" ));			trace(p.tofixed(0.84965, 100));							}					}	}

@@ -1,0 +1,1 @@
+﻿package{	import flash.display.Sprite;	import flash.events.*;	import flash.display.StageAlign;	import flash.display.StageScaleMode;		import com.tribalframework.utils.fullstretch.Fullstretch;		public class FullstretchExample extends Sprite	{				public function FullstretchExample(){						Fullstretch.initStretch(overlay, stage);			}	}	}

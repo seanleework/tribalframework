@@ -1,0 +1,1 @@
+﻿package{	import flash.display.*;	import flash.events.*;	import com.tribalframework.utils.xe.Xe;		public class XeExample extends Sprite	{		public function XeExample(){						var tempar = new Xe();			tempar.initXe(100, "sgd", "usd");					}		}}

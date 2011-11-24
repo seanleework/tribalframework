@@ -1,0 +1,1 @@
+﻿package{	import flash.display.*;	import flash.events.*;		import com.tribalframework.utils.preloaderClass.Preloader;		public class PreloaderExample extends MovieClip	{		 		public function PreloaderExample(){						Preloader.init(stage, "main2.swf");			Preloader.initLoadingText(txt);			Preloader.initLoadingBar(loadbar);					}			}}

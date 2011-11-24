@@ -1,0 +1,1 @@
+﻿package{	import flash.display.*;	import flash.events.*;	import com.tribalframework.utils.cachebuster.CacheBuster;		public class CacheBusterExample extends MovieClip	{				public function CacheBusterExample(){			trace(CacheBuster.bust("http://www.google.com"));		}			}	}

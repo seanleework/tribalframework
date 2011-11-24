@@ -1,0 +1,1 @@
+﻿package{	import flash.display.*;	import flash.events.*;	import flash.ui.Mouse;		import com.tribalframework.utils.dmf.Dmf;		public class DmfExample extends MovieClip	{		public function DmfExample(){						Mouse.hide();			Dmf.initDmf(circle, mc, stage);					}		 	}}
